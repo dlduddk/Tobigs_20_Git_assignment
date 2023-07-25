@@ -1,7 +1,7 @@
 import time, json, os, sys
 
 sys.tracebacklimit = 0 # traceback을 띄우지 않음
-WAITTIME = 2
+WAITTIME = 0
 NUM_PLAYERS = len(os.listdir())
 
 class MissonNotFinishError(Exception):
